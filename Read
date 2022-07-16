@@ -1,0 +1,2 @@
+Per far partire il server vai con il prompt nella cartella ...\server e digita 'npm start'
+oppure digita 'nodemon run dev'
