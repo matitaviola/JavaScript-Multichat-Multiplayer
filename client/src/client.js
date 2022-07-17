@@ -2,17 +2,13 @@ const MaxRan = 1000;
 const id = Math.floor(Math.random() * MaxRan);
 
 const logEvent = (text)=>{
-    //<ul> di index
+    //<ol> di index
     const parent = document.querySelector('#events');
     // <li> di index
     const element = document.createElement('li');
     element.innerHTML = text;
     parent.appendChild(element);
 };
-
-
-//first words
-logEvent('<b>Welcome to RPS</b>');
 
 const formSubmission = (sub) =>{
     sub.preventDefault();

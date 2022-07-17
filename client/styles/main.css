@@ -1,0 +1,88 @@
+/*Codice per componenti su tutto il file*/
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 1px;
+    line-height: 15px;
+    background-color: azure;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, 
+                rgba(0, 0, 0, 0.12) 0 1px 4px;
+    transition: all 150ms ease-in-out;
+}
+button:hover {
+    background-color: lightblue;
+}
+
+
+
+/*Da qui in poi abbiamo il codice per elementi e classi specifiche*/
+.rps-wrapper {
+    background-color: azure ;
+    height: 400px;
+    width: 450px;
+    margin: 50px auto;
+    border: 1px solid mediumaquamarine;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-wrapper{
+    flex-grow: 1;
+    border-bottom: 1px solid mediumaquamarine;
+    overflow-y: scroll;
+}
+
+#events{
+    list-style: none;
+    margin: 2px;
+    padding: 1px;
+    
+}
+
+#events li{
+    margin: 4px;
+    padding: 5px;
+    background-color: floralwhite;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, 
+                rgba(0, 0, 0, 0.12) 0 1px 7px;
+}
+
+.chat-form-wrapper {
+    padding: 10px;
+}
+
+.chat-form-wrapper form {
+    display: flex;
+}
+
+.chat-form-wrapper form input{
+    flex-grow: 1;
+    padding: 0 5px;
+    margin: 0 5px 0 2px;
+    font-size: 1.0rem;
+}
+
+.chat-form-wrapper form button{
+    width: 90px;
+    background-color: lightblue
+}
+.chat-form-wrapper form button:hover {
+    background-color: #41AADE;
+}
+
+.button-wrapper {
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-evenly;
+}

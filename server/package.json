@@ -9,7 +9,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "matitaviola",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
