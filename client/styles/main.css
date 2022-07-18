@@ -40,18 +40,22 @@ button:hover {
     flex-grow: 1;
     border-bottom: 1px solid mediumaquamarine;
     overflow-y: scroll;
+    /*serve a far avere l'ultimo mess in fondo senza dover scorrere*/
+    overflow:auto; 
+    display:flex; 
+    flex-direction:column-reverse;
 }
 
 #events{
     list-style: none;
     margin: 2px;
     padding: 1px;
-    
 }
 
 #events li{
+    width: max-content;
     margin: 4px;
-    padding: 5px;
+    padding: 2px 10px 2px 10px;;
     background-color: floralwhite;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, 
